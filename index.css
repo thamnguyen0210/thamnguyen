@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* css nội dung tiêu đề */
+.content_header {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  border-radius: 20px;
+  background-color: rgb(249, 196, 205);
+  padding: 20px;
+}
+/* css ảnh */
+.content_header-image img {
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+}
+
+/* css tiêu đề */
+.content_header-title {
+  width: 600px;
+  margin-left: 50px;
+}
+.title_CV {
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.title_notifi {
+  font-size: 30px;
+}
+/* css nội dung chính */
+.container {
+  display: flex;
+  margin-top: 10px;
+  width: 950px;
+}
+
+.container_self {
+  background-color: rgb(244, 135, 155);
+  border-top-right-radius: 20px;
+  width: 500px;
+  padding: 20px;
+}
+
+.container_work {
+  width: 450px;
+}
+
+/* nội dung họ tên,địa chỉ */
+.content_header-list {
+  margin-top: 10px;
+}
+.content_header-name {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.content_name {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.fa-envelope,
+.fa-phone,
+.fa-location-dot,
+.fa-calendar-days,
+.fa-venus-mars {
+  background-color: red;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+}
+
+/* mục tiêu nghề nghiệp */
+
+.container_target {
+  margin-top: 20px;
+}
+.content_target {
+  padding-left: 20px;
+}
+
+.detail_target {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* nội dung kĩ năng */
+.container_skill {
+  margin-top: 20px;
+}
+
+/* nội dung tin học */
+.container_technology {
+  margin-top: 20px;
+}
+.detail_start {
+  margin-left: 80px;
+}
+
+.detail_powerPoint {
+  margin-left: 32px;
+}
+/* nội dung ngoại ngữ */
+.container_language {
+  margin-top: 20px;
+}
+
+.content_language {
+  padding-left: 20px;
+}
+
+.detail_language {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.detail_china {
+  margin-left: 68px;
+}
+
+/* nội dung phần thưởng */
+.container_reward {
+  margin-top: 20px;
+}
+.detail_reward {
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* nội dung chứng chỉ */
+.container_certificate {
+  margin-top: 20px;
+}
+.detail_certificate {
+  padding-left: 20px;
+  font-size: 18px;
+}
+/* nội dung học vấn */
+.container_education {
+  margin: 10px;
+}
+.fa-graduation-cap {
+  padding: 5px;
+  border-radius: 50%;
+  color: red;
+  margin-right: 10px;
+}
+.detail_title {
+  font-size: 30px;
+  display: flex;
+}
+.line {
+  margin: 15px;
+}
+
+.detail_content {
+  padding: 20px;
+}
+
+.detail_one {
+  border-left: 4px solid red;
+  padding-left: 10px;
+}
+
+.content_education {
+  margin-top: 10px;
+}
+
+.content_detailEducation {
+  margin-top: 10px;
+}
+/* nội dung kinh nghiệm */
+.container_experience {
+  margin: 10px;
+}
+
+.experience_title {
+  font-size: 30px;
+  display: flex;
+}
+
+.fa-building {
+  padding: 5px;
+  border-radius: 50%;
+  color: red;
+  margin-right: 10px;
+}
+
+.line_experience {
+  margin: 15px;
+}
+
+.content_experience {
+  padding: 20px;
+}
+
+.experience_one {
+  border-left: 4px solid red;
+  padding-left: 10px;
+}
+
+.experience_oneContent {
+  margin-top: 10px;
+}
+
+/* nội dung sở thích */
+.container_interest {
+  margin: 10px;
+}
+
+.interest_title {
+  font-size: 30px;
+  display: flex;
+}
+
+.fa-circle-info {
+  padding: 5px;
+  border-radius: 50%;
+  color: red;
+  margin-right: 10px;
+}
+.content_interest {
+  padding: 20px;
+}
+
+.detail_contentInterest {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* nội dung người giới thiệu */
+.container_person {
+  margin: 10px;
+}
+.person_title {
+  font-size: 30px;
+  display: flex;
+}
+
+.fa-user {
+  padding: 5px;
+  border-radius: 50%;
+  color: red;
+  margin-right: 10px;
+}
+.line_person {
+  margin: 15px;
+}
+.content_person {
+  padding: 20px;
+}
+/* responsive điện thoại */
+@media only screen and (max-width: 600px) {
+  .content_header {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(249, 196, 205);
+  }
+
+  .title_CV {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  .content_header-image {
+    display: flex;
+    justify-content: center;
+  }
+  .content_header-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .content_header-title {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .title_CV {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .title_notifi {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    width: 340px;
+  }
+
+  .container_self {
+    width: 340px;
+  }
+
+  .container_work {
+    width: 340px;
+  }
+
+  .line {
+    margin: 15px;
+    width: 120px;
+  }
+
+  .line_experience {
+    margin: 15px;
+    width: 0px;
+  }
+
+  .line_person {
+    margin: 15px;
+    width: 0px;
+  }
+}
